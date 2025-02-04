@@ -12,15 +12,14 @@ body{
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    background: linear-gradient(20deg,#B9BABA,#3F77AF,#B9BABA);
+    background:#3F77AF;
 }
 
 .card-detail{
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    border-radius: 1rem;
-    background: linear-gradient(135deg,black,white);
+    background: black;
     color: linear-gradient(75deg,#3F77AF,white);
     padding: 1rem;
     margin: 1rem;
@@ -33,6 +32,7 @@ input{
     width: 278px;
     height: 3rem;
     margin-top: 0.5rem;
+    box-shadow: black;
 }
 
 textarea{
@@ -42,7 +42,7 @@ textarea{
 }
 
 .bg-blue{
-    color: #3381cf;
+    color: white;
 }
 
 .color-black{
@@ -61,7 +61,6 @@ button{
 
 #card{
     display: flex;
-    /* border: 2px solid black; */
     width: 88.9mm;
     height: 50.8mm;
     background: black;
@@ -84,11 +83,11 @@ h1{
 }
 
 .container{
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
-
+    text-align: center;
+    align-items: center;
 }
 
 #detail{
@@ -107,11 +106,9 @@ h1{
     border-radius: 6rem 0rem 0rem 6rem;
     word-wrap: break-word;
     word-break: break-all;
-
 }
 
 #detail h1{
-  /* padding-left: 2rem; */
   color: #3381cf;
   font-size: medium;
 }
@@ -122,8 +119,8 @@ h1{
 
 #showlink{
     padding-left: 1.5rem;
-    font-size: small;
-    
+    font-size: x-small;
+    margin-top: 3px;
 }
 
 #showbio{
